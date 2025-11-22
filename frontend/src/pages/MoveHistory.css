@@ -1,0 +1,85 @@
+.move-history-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.move-history-page h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.history-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-input,
+.filter-select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.filter-input {
+  min-width: 150px;
+}
+
+.filter-select {
+  min-width: 150px;
+}
+
+.history-table-container {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.history-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+}
+
+.history-table th:hover {
+  background: #e9ecef;
+}
+
+.history-table tr:hover {
+  background: #f8f9fa;
+}
+
+.inbound-row {
+  background-color: #d4edda !important;
+}
+
+.inbound-row:hover {
+  background-color: #c3e6cb !important;
+}
+
+.outbound-row {
+  background-color: #f8d7da !important;
+}
+
+.outbound-row:hover {
+  background-color: #f5c6cb !important;
+}
+
